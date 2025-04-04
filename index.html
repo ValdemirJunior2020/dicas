@@ -10,41 +10,62 @@
       background-color: #f4f4f4;
       padding: 20px;
     }
+
     h1 {
       text-align: center;
       color: #111;
       margin-bottom: 10px;
     }
+
     h2 {
       text-align: center;
       color: #444;
       font-weight: normal;
       margin-top: 0;
     }
+
     .section {
       margin-top: 30px;
     }
+
     .position-title {
       font-size: 1.3em;
       font-weight: bold;
       margin-bottom: 10px;
     }
+
     .player {
       display: flex;
       align-items: center;
       margin: 6px 0;
     }
+
     .player img {
       width: 28px;
       height: 28px;
       margin-right: 10px;
       object-fit: contain;
     }
+
+    .captain {
+      border: 3px solid gold;
+      border-radius: 50%;
+    }
+
     .reserve-title {
       font-size: 1.2em;
       font-weight: bold;
       margin-top: 40px;
       color: #d97706;
+    }
+
+    .tactic-box {
+      background: linear-gradient(to bottom, #6ab04c, #badc58);
+      border-radius: 12px;
+      padding: 20px;
+      color: white;
+      text-align: center;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -53,6 +74,18 @@
   <h1>Mestres Dicas</h1>
   <h2>Rodada 2 - Cartola 2025</h2>
 
+  <!-- CAMPO TÁTICO -->
+  <div class="section">
+    <div class="position-title">📋 Esquema Tático: 4–3–3</div>
+    <div class="tactic-box">
+      <p>🧤 Goleiro</p>
+      <p>🛡️ Zagueiros ×2 &nbsp;&nbsp;🏃 Laterais ×2</p>
+      <p>⚙️ Meias ×3</p>
+      <p>🔥 Atacantes ×3</p>
+    </div>
+  </div>
+
+  <!-- GOLEIROS -->
   <div class="section">
     <div class="position-title">🧤 Goleiros</div>
     <div class="player">
@@ -65,6 +98,7 @@
     </div>
   </div>
 
+  <!-- ZAGUEIROS -->
   <div class="section">
     <div class="position-title">🛡️ Zagueiros</div>
     <div class="player">
@@ -77,6 +111,7 @@
     </div>
   </div>
 
+  <!-- LATERAIS -->
   <div class="section">
     <div class="position-title">🏃 Laterais</div>
     <div class="player">
@@ -89,6 +124,7 @@
     </div>
   </div>
 
+  <!-- MEIAS -->
   <div class="section">
     <div class="position-title">⚙️ Meias</div>
     <div class="player">
@@ -105,11 +141,12 @@
     </div>
   </div>
 
+  <!-- ATACANTES -->
   <div class="section">
     <div class="position-title">🔥 Atacantes</div>
     <div class="player">
-      <img src="https://cdn-icons-png.flaticon.com/512/197/197386.png" alt="Ceará" />
-      Pedro Raul (Ceará)
+      <img src="https://cdn-icons-png.flaticon.com/512/197/197386.png" alt="Ceará" class="captain" />
+      <strong>Pedro Raul ⭐ (Capitão)</strong>
     </div>
     <div class="player">
       <img src="https://cdn-icons-png.flaticon.com/512/149/149059.png" alt="Mirassol" />
@@ -125,6 +162,7 @@
     </div>
   </div>
 
+  <!-- TECNICO -->
   <div class="section">
     <div class="position-title">🎯 Técnico</div>
     <div class="player">
@@ -133,6 +171,7 @@
     </div>
   </div>
 
+  <!-- RESERVAS -->
   <div class="section">
     <div class="reserve-title">🪑 Reservas</div>
     <div class="player">
@@ -149,17 +188,14 @@
     </div>
   </div>
 
- <!-- CAMPO TÁTICO -->
-<div class="section">
-  <div class="position-title">📋 Esquema Tático: 4–3–3</div>
-  <div style="background: linear-gradient(#6ab04c, #badc58); border-radius: 12px; padding: 20px; color: white; text-align: center;">
-    <p>🧤 Goleiro</p>
-    <p>🛡️ Zagueiros x2 &nbsp;&nbsp;🏃 Laterais x2</p>
-    <p>⚙️ Meias x3</p>
-    <p>🔥 Atacantes x3</p>
+  <!-- RESERVA DE LUXO -->
+  <div class="section">
+    <div class="reserve-title">⭐ Reserva de Luxo</div>
+    <div class="player">
+      <img src="https://cdn-icons-png.flaticon.com/512/197/197582.png" alt="Vasco" />
+      Vegetti (Vasco) – entra no lugar do pior pontuador 🧠
+    </div>
   </div>
-</div>
-
 
 </body>
 </html>
